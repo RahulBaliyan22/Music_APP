@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/1efd4e4a43.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section id="container">
+      <div id="header">
+        <h1>MUSIC PLAY ARENA</h1>
+        <i id =" addSong"class="fa fa-plus" aria-hidden="true"title="Add Song" style="cursor:pointer;margin-right: 20px;"></i>
+        <i id ="randomPlay"class="fa fa-random" title="Random Play"aria-hidden="true" style="cursor:pointer"></i>
+      </div>
+      <ul id="song"></ul>
+
+      <div id="play">
+      <div id="du"></div>
+        <input
+          type="range"
+          id="inp"
+          style="width: 100vw"
+          min="0"
+          max="100"
+          value="0"
+        />
+        <div id="info"><em>Happy Music :)</em></div>
+        <br />
+        <div id="icons">
+          <button id="back_btn">
+            <i class="fa fa-step-backward" aria-hidden="true"></i>
+          </button>
+          <button id="play-btn">
+            <i class="fa fa-play" aria-hidden="true"></i>
+          </button>
+          <button id="forward_btn">
+            <i class="fa fa-step-forward" aria-hidden="true"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+    <script src="./app.js"></script>
+  </body>
+</html>

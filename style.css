@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+  background-color: black;
+}
+#du{
+  color: greenyellow
+}
+#header > h1 {
+  cursor: pointer;
+  position: relative;
+  left: 44%;
+  width: fit-content;
+}
+#header>i{
+  color: azure;
+}
+#song {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 10px;
+  padding: 20px;
+}
+#header {
+  border-bottom: 3px solid palevioletred;
+  color: chartreuse;
+  display: flex;
+  margin: 20px 0px;
+  padding-bottom: 20px;
+}
+#icons > button {
+  color: chartreuse;
+  font-size: 30px;
+  border: none;
+  cursor: pointer;
+}
+#inp {
+  accent-color: palevioletred;
+  cursor: pointer;
+}
+
+#icons {
+  box-sizing: border-box;
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+#play {
+  position: absolute;
+  bottom: 0;
+}
+#song {
+  list-style: none;
+}
+.song-item {
+  width: fit-content;
+  border: 2px solid pink;
+  padding: 0px 20px;
+  font-size: 25px;
+  color: rgb(242, 192, 255);
+  text-shadow: 0px 0px 10px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.song-item:hover {
+  color: gold;
+  transform: scale(1.5);
+}
+#info {
+  color: chartreuse;
+  
+  font-size: larger;
+  padding: 10px 0px 0px 10px;
+}
