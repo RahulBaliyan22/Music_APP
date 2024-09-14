@@ -10,8 +10,8 @@ let randEl = document.getElementById("randomPlay");
 
 let songs = [
   { name: "song1", id: 1, key: "Bekhayali (बेख्याली)" },
-  { name: "song2", id: 2, key: "Rihaa" },
-  { name: "song3", id: 3, key: "Zindagi Ko Hi5" },
+  { name: "song2", id: 2, key: "Zindagi Ko Hi5" },
+  { name: "song3", id: 3, key: "Rihaa" },
   { name: "song4", id: 4, key: "Jaan Nisaar" },
   { name: "song5", id: 5, key: "Saari Ki Saari 2.0" },
   { name: "song6", id: 6, key: "Muskurane" },
